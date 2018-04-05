@@ -10,3 +10,5 @@ for(var i=0; i<= heightTree; i++) {
      
 }
 drawTree(10);
+
+/* Kopletnie nie mam pomysłu jak je wyśrodkować ;/ */
