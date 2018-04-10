@@ -1,14 +1,20 @@
 
-function drawTree(heightTree){  
-for(var i=0; i<= heightTree; i++) {
-    var star = ' ';
-        for(var j=1; j<=i; j++){
-        star += "*";
-        }
-        console.log(star);
-        }
-     
-}
-drawTree(10);
+function drawTree(heightTree) {
+    for (var i = 0; i <= heightTree; i++) {
+        var star = '';
 
-/* Kopletnie nie mam pomysłu jak je wyśrodkować ;/ */
+        for (var k = heightTree; k > i; k--) {
+            star += ' ';
+        }
+
+        for (var j = 1; j <= i; j++) {
+            star += "**";
+        }
+
+        console.log(star);
+    }
+
+}
+
+drawTree(5);
+
